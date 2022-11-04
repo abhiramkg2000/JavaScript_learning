@@ -1,0 +1,45 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    margin-top: 20px;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .disable {
+    cursor: not-allowed;
+  }
+  .move {
+    animation: mymove 1s infinite;
+  }
+  
+  @keyframes mymove {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-50px);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    75% {
+      transform: translateX(50px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .fixed {
+    animation: none;
+  }
+  

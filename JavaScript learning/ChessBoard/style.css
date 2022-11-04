@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.grid{
+    /* padding: 1px; */
+    width: fit-content;
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    /* grid-template-rows: auto auto auto auto auto auto auto auto; */
+    border: 2px solid black;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+}

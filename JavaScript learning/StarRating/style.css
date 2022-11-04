@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fa-star-o:before {
+    content: "\f006";
+    color: #5f6368;
+}
+
+.fa-star:before {
+    content: "\f005";
+    color: #d56e0c;
+}
+
+/* Do not add extra CSS */
